@@ -10,8 +10,14 @@
 - `git commit`: commits files in the staging area
     - if you opened this in VI(M): <ESC> `:q!`
     - `git config --global core.editor "nano -w"`
+- `git commit -m "MESSAGE"`: allows you to type a one line commit message in 1 step
 
 - `git log`: shows you your history
     - `git log --oneline`: shows you your 1-line version of history
 
 - `HEAD`: tells you where you are looking at in history
+
+- `git diff`: shows you current state with last known state differences
+    - `git diff --staged`: shows difference from staging area with last known
+    - you can use `git log --oneline` to specify different versions in history
+
