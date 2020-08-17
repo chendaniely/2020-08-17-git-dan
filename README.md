@@ -10,3 +10,8 @@
 - `git commit`: commits files in the staging area
     - if you opened this in VI(M): <ESC> `:q!`
     - `git config --global core.editor "nano -w"`
+
+- `git log`: shows you your history
+    - `git log --oneline`: shows you your 1-line version of history
+
+- `HEAD`: tells you where you are looking at in history
