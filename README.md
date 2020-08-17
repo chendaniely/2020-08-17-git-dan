@@ -31,3 +31,5 @@
 
 - You can make changes to different parts of a file and it will be combined automatically
 - in a merge conflict, look for the `>>>` `===` `<<<` and fix those lines to what you want
+
+- `git clone <URL>`: to download a git repo on to your local computer
