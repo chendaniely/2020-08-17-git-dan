@@ -1,0 +1,108 @@
+   17  mkdir git
+   18  cd git/
+   19  mkdir 2020-08-17-git-dan
+   20  ls
+   21  cd 2020-08-17-git-dan/
+   22  pwd
+   23  ls
+   24  ls -a
+   25  git init
+   26  ls
+   27  ls -a
+   28  git config --global user.name "Daniel Chen"
+   29  git config --global user.email "chendaniely@gmail.com"
+   30  git config --list
+   31  explorer .
+   32  # open .
+   33  nano README.md
+   34  git status
+   35  git add README.md
+   36  git status
+   37  git commit
+   38  git commit
+   39  ls
+   40  cat README.md
+   41  nano README.md
+   42  explorer .
+   43  # open .
+   44  nano README.md
+   45  git commit
+   46  git status
+   47  git add README.md
+   48  git status
+   49  git commit
+   50  git log
+   51  git log
+   52  git log
+   53  git log
+   54  git log --oneline
+   55  nano README.md
+   56  git status
+   57  git diff
+   58  git add README.md
+   59  git status
+   60  git diff
+   61  git diff --staged
+   62  git status
+   63  git commit -m "talked about log and head"
+   64  history
+   65  cat README.md
+   66  git status
+   67  git status
+   68  nano README.md
+   69  git status
+   70  git diff
+   71  git status
+   72  git add README.md
+   73  git status
+   74  git diff --staged
+   75  git commit -m "talked about commit -m and diff"
+   76  git log --oneline
+   77  git remote add origin git@github.com:chendaniely/2020-08-17-git-dan.git
+   78  git remote -v
+   79  git log
+   80  git log
+   81  git remote -v
+   82  git push origin master
+   83  # username:
+   84  #password:
+   85  nano README.md
+   86  git status
+   87  git add README.md
+   88  git status
+   89  git commit -m "remotes push pull"
+   90  git push origin master
+   91  nano README.md
+   92  git diff
+   93  git add README.md
+   94  git commit -m "local and remote headers"
+   95  git status
+   96  git push origin master
+   97  git pull origin master
+   98  cat README.md
+   99  git push origin master
+  100  nano README.md
+  101  git status
+  102  git add README.md
+  103  git status
+  104  git commit -m "change title on local computer"
+  105  cat README.md
+  106  git push origin master
+  107  git pull origin master
+  108  nano README.md
+  109  git status
+  110  git add README.md
+  111  git status
+  112  git commit -m "fix conflicts"
+  113  git status
+  114  git push origin master
+  115  cat README.md
+  116  git pull origin master
+  117  mkdir code
+  118  git status
+  119  nano code/README.md
+  120  git status
+  121  git add code/
+  122  git status
+  123  git commit -m "add code folder by putting a readmefile in it"
+  124  git push origin master
