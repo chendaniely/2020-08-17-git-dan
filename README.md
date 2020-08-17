@@ -1,5 +1,7 @@
 # 2020-08-17-git-dan
 
+## Local
+
 - `git init`: create git repository in current folder
 - `git config --global user.name "Daniel Chen"
 - `git config --global user.email "chendaniely@gmail.com"
@@ -20,6 +22,8 @@
 - `git diff`: shows you current state with last known state differences
     - `git diff --staged`: shows difference from staging area with last known
     - you can use `git log --oneline` to specify different versions in history
+
+## Remotes
 
 - `git remote add origin <URL>`: adds <URL> with the name origin
 - `git push origin master`: pushes the master branch to the origin remote
