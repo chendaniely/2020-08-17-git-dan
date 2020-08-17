@@ -1,4 +1,4 @@
-# 2020-08-17-git-dan VT SWC Git lesson
+# 2020-08-17: VT SWC Git lesson
 
 ## Local
 
@@ -30,3 +30,4 @@
 - `git pull origin master`: pulls the master branch from origin to local computer
 
 - You can make changes to different parts of a file and it will be combined automatically
+- in a merge conflict, look for the `>>>` `===` `<<<` and fix those lines to what you want
