@@ -1,5 +1,13 @@
 # 2020-08-17: VT SWC Git lesson
 
+Additional resources:
+
+- git + rstudio: https://happygitwithr.com/
+- dan's reference guide for git (but uses branches): https://chendaniely.github.io/training_ds_r/help-faq.html
+- swc git lesson: https://swcarpentry.github.io/git-novice/
+- if you want to know more about branches and forks: https://www.youtube.com/watch?v=uvWhSYBkZJ0
+- Setting up ssh links: https://bi-sdal.github.io/training/ssh-keys.html
+
 ## Local
 
 - `git init`: create git repository in current folder
