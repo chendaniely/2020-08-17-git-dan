@@ -21,3 +21,6 @@
     - `git diff --staged`: shows difference from staging area with last known
     - you can use `git log --oneline` to specify different versions in history
 
+- `git remote add origin <URL>`: adds <URL> with the name origin
+- `git push origin master`: pushes the master branch to the origin remote
+- `git pull origin master`: pulls the master branch from origin to local computer
