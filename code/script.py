@@ -4,4 +4,5 @@ print(3 + 3)
 # you may see code as:
 # print 3 + 3
 
-
+# you might see this in legacy code
+# if this is a new project, use python3
